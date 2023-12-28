@@ -1,24 +1,40 @@
-h1{
-    margin:auto;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h2{
-    margin:auto;
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }
 
-h3{
-    margin:auto;
+nav {
+    background-color: #444;
+    padding: 1em;
 }
 
-h4{
-    margin:auto;
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
 }
 
-h5{
-    margin:auto;
+section {
+    padding: 2em;
 }
 
-h6{
-    margin:auto;
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
