@@ -5,22 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow">
-    <title>Ollie's Cove - Home</title>
+    <title>Oliver's Portfolio</title>
     <script src="https://kit.fontawesome.com/040c63107c.js" crossorigin="anonymous"></script>
 </head>
 <body>
         
-<div class="navbar">
-    <a href="mailto:olliescove@gmail.com" class="fa-solid fa-envelope" style="float: right"></a>
-    <a href="https://github.com/olliescove" class="fa-brands fa-github" style="float: right"></a>
-    <a href="https://discordapp.com/users/1169358132691075125" class="fa-brands fa-discord" style="float: right"></a>
-    <a href="https://patreon.com/user?u=111900025" class="fa-brands fa-patreon" style="float: right"></a>
+<div class="navbar" id="myNavBar">
+    
+    <a href="https://linktr.ee/olliescove" class="icon" style="float: right"><i class="fa-solid fa-user"></i></a>
+    <a href="https://github.com/olliescove?tab=repositories" class="icon" style="float: left"><i class="fa-solid fa-file-code"></i></a>
+    
+    <div class="dropdown">
+        <a class="dropbtn" style="float: left; text-align: right"><i class="fa-solid fa-file-code"></i></a>
+        <div class="dropdown-content">
+            <a href="https://github.com/olliescove/home">This Page <i class="fa-solid fa-code"></i></a>
+        </div>
     </div>
     
-<div class="in_development">
-    <h1 style="font-family:'Rubik Doodle Shadow'" class="in_development">IN DEVELOPMENT</h1>
+    <!--<a href="mailto:" class="fa-solid fa-envelope" style="float: right"></a>-->
+    <a href="https://github.com/olliescove" class="fa-brands fa-github" style="float: right"></a>
+    <a href="https://discordapp.com/users/1169358132691075125" class="fa-brands fa-discord" style="float: right"></a>
+    <a href="https://www.youtube.com/channel/UCV3pgKFpFy0gpca1jSvLu0w" class="fa-brands fa-youtube" style="float: right"></a>
+    <a href="https://twitter.com/olliescove" class="fa-brands fa-x-twitter" style="float: right"></a>
+    <a href="https://patreon.com/user?u=111900025" class="fa-brands fa-patreon" style="float: right"></a>
+    
     </div>    
     
+<div class="in_development">
+    <h1 style="font-family:'Rubik Doodle Shadow'" class="in_development">Azai is awesome <3</h1>
+    </div>    
     
+<p style="text-align: center; color: whitesmoke;">Idk what else to put in here</p>    
+    
+<script>
+    function myFunction() {
+  var x = document.getElementById("myNavBar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+  
+
 </body>
 </html>
